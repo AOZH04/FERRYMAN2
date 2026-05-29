@@ -1,0 +1,716 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Ferry Management — Международные перевозки, Актау</title>
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link
+		href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Montserrat:wght@600;700;800&display=swap"
+		rel="stylesheet">
+	<link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+	<header class="site_header" id="site_header">
+		<div class="site_header_inner">
+			<div class="header_logo">
+				<a href="#" class="header_logo_img_link" aria-label="Ferry Management — на главную">
+					<img class="header_logo_img" src="img/logosmallwhite.png" alt="Ferry Management">
+				</a>
+				<div class="header_logo_text">
+					<span class="header_logo_form">Товарищество с ограниченной ответственностью</span>
+					<a href="#" class="header_logo_name ff3">FERRY MANAGEMENT</a>
+					<span class="header_logo_address">Казахстан, Мангистауская обл,, 130000, г.&nbsp;Актау, 5&nbsp;мкр.,
+						29&nbsp;д., офис&nbsp;№1. <br>
+						Тел.: <a href="tel:+77292500346">+7&nbsp;7292&nbsp;500&nbsp;346</a>, e-mail: <a
+							href="mailto:info@ferry.kz">info@ferry.kz</a></span>
+				</div>
+			</div>
+
+			<div class="header_dropdown" id="header_dropdown">
+				<nav class="header_nav">
+					<ul class="header_nav_list">
+						<li><a href="about.html" class="header_nav_link">О компании</a></li>
+						<li><a href="#services" class="header_nav_link">Услуги</a></li>
+						<li><a href="services/sea.html" class="header_nav_link">Паромные перевозки</a></li>
+						<li><a href="news.html" class="header_nav_link">Новости</a></li>
+						<li><a href="contacts.html" class="header_nav_link">Контакты</a></li>
+					</ul>
+				</nav>
+				<div class="header_actions">
+					<a href="#form" class="btn_cta">Заказать перевозку</a>
+				</div>
+			</div>
+
+			<button class="header_burger" id="header_burger" aria-label="Меню">
+				<span></span>
+				<span></span>
+				<span></span>
+			</button>
+		</div>
+	</header>
+
+	<main>
+
+		<section class="hero_section" id="hero">
+			<img class="hero_bg" src="img/port1.png" alt="Морской порт Актау">
+			<div class="hero_overlay"></div>
+			<div class="hero_section_inner">
+				<div class="hero_content">
+					<p class="hero_eyebrow">ТОО «FERRY MANAGEMENT» — Актау, Казахстан</p>
+					<h1 class="hero_title ff2">
+						<span class="hero_title_line">Надёжные</span>
+						<span class="hero_title_line">международные</span>
+						<span class="hero_title_line hero_title_accent">перевозки</span>
+					</h1>
+					<p class="hero_sub">Контроль груза на каждом этапе</p>
+					<div class="hero_actions">
+						<a href="#form" class="btn_accent">Отправить заявку</a>
+						<a href="#about" class="btn_ghost">Узнать больше</a>
+					</div>
+				</div>
+			</div>
+		</section>
+		<section class="services_section" id="services">
+			<div class="services_section_inner">
+				<div class="services_head fade_in">
+					<!-- <p class="section_eyebrow">Что мы делаем</p> -->
+					<h2 class="section_title section_title_light ff2">Наши услуги</h2>
+				</div>
+				<div class="services_grid">
+
+					<div class="service_card fade_in">
+						<img class="service_card_bg" src="img/avtopogruzka.png" alt="">
+						<div class="service_card_top">
+							<div class="service_icon">
+								<svg width="40" height="40" viewBox="0 0 40 40" fill="none">
+									<path d="M4 28H36" stroke="currentColor" stroke-width="2" stroke-linecap="round" />
+									<path d="M4 24H36" stroke="currentColor" stroke-width="2" stroke-linecap="round" />
+									<rect x="5" y="12" width="10" height="12" stroke="currentColor" stroke-width="2" />
+									<rect x="22" y="16" width="10" height="8" stroke="currentColor" stroke-width="2" />
+									<circle cx="9" cy="31" r="2.5" stroke="currentColor" stroke-width="2" />
+									<circle cx="29" cy="31" r="2.5" stroke="currentColor" stroke-width="2" />
+								</svg>
+							</div>
+							<span class="service_num ff2">01</span>
+						</div>
+						<h3 class="service_title ff2">Железнодорожные перевозки</h3>
+						<p class="service_desc">Внутри РК, импорт, экспорт и транзит по международным транспортным коридорам.
+						</p>
+						<a href="services/rail.html" class="service_link"><span>Подробнее →</span></a>
+					</div>
+
+					<div class="service_card fade_in">
+						<img class="service_card_bg" src="img/parom.jpg" alt="">
+						<div class="service_card_top">
+							<div class="service_icon">
+								<svg width="40" height="40" viewBox="0 0 40 40" fill="none">
+									<path d="M6 26C6 26 9 16 20 16C31 16 34 26 34 26" stroke="currentColor" stroke-width="2" />
+									<path d="M4 26H36L34 34H6L4 26Z" stroke="currentColor" stroke-width="2" />
+									<path d="M13 16V12" stroke="currentColor" stroke-width="2" stroke-linecap="round" />
+									<path d="M20 16V10" stroke="currentColor" stroke-width="2" stroke-linecap="round" />
+									<path d="M27 16V12" stroke="currentColor" stroke-width="2" stroke-linecap="round" />
+								</svg>
+							</div>
+							<span class="service_num ff2">02</span>
+						</div>
+						<h3 class="service_title ff2">Морские перевозки</h3>
+						<p class="service_desc">Порты Актау и Курык, суда Ro-Ro. Контейнеры, автомобили, колёсная техника.</p>
+						<a href="services/sea.html" class="service_link"><span>Подробнее →</span></a>
+					</div>
+
+					<div class="service_card fade_in">
+						<img class="service_card_bg" src="img/avtoperevozka.png" alt="">
+						<div class="service_card_top">
+							<div class="service_icon">
+								<svg width="40" height="40" viewBox="0 0 40 40" fill="none">
+									<rect x="4" y="20" width="24" height="10" stroke="currentColor" stroke-width="2" />
+									<path d="M28 24L36 28V30H28V24Z" stroke="currentColor" stroke-width="2" />
+									<circle cx="10" cy="33" r="3" stroke="currentColor" stroke-width="2" />
+									<circle cx="26" cy="33" r="3" stroke="currentColor" stroke-width="2" />
+									<path d="M7 20V14H18" stroke="currentColor" stroke-width="2" />
+								</svg>
+							</div>
+							<span class="service_num ff2">03</span>
+						</div>
+						<h3 class="service_title ff2">Автоперевозки</h3>
+						<p class="service_desc">Доставка «до двери», негабаритные и специализированные грузы с разрешениями.
+						</p>
+						<a href="services/auto.html" class="service_link"><span>Подробнее →</span></a>
+					</div>
+
+					<div class="service_card fade_in">
+						<img class="service_card_bg" src="img/broker.png" alt="">
+						<div class="service_card_top">
+							<div class="service_icon">
+								<svg width="40" height="40" viewBox="0 0 40 40" fill="none">
+									<rect x="8" y="8" width="24" height="24" stroke="currentColor" stroke-width="2" />
+									<path d="M15 20L18 23L25 16" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+										stroke-linejoin="round" />
+									<path d="M8 14H32" stroke="currentColor" stroke-width="2" />
+								</svg>
+							</div>
+							<span class="service_num ff2">04</span>
+						</div>
+						<h3 class="service_title ff2">Таможенный брокер</h3>
+						<p class="service_desc">Таможенная очистка, транзитное оформление, консультации по законодательству.
+						</p>
+						<a href="services/broker.html" class="service_link"><span>Подробнее →</span></a>
+					</div>
+
+					<div class="service_card fade_in">
+						<img class="service_card_bg" src="img/containers.png" alt="">
+						<div class="service_card_top">
+							<div class="service_icon">
+								<svg width="40" height="40" viewBox="0 0 40 40" fill="none">
+									<rect x="6" y="16" width="28" height="18" stroke="currentColor" stroke-width="2" />
+									<path d="M13 16V10H27V16" stroke="currentColor" stroke-width="2" />
+									<path d="M6 22H34" stroke="currentColor" stroke-width="2" />
+									<rect x="16" y="26" width="8" height="8" stroke="currentColor" stroke-width="2" />
+								</svg>
+							</div>
+							<span class="service_num ff2">05</span>
+						</div>
+						<h3 class="service_title ff2">Склад СВХ</h3>
+						<p class="service_desc">Временное хранение, таможенный досмотр, взвешивание, видеонаблюдение 24/7.</p>
+						<a href="services/warehouse.html" class="service_link"><span>Подробнее →</span></a>
+					</div>
+
+					<div class="service_card fade_in">
+						<img class="service_card_bg" src="img/gruzsudno2.png" alt="">
+						<div class="service_card_top">
+							<div class="service_icon">
+								<svg width="40" height="40" viewBox="0 0 40 40" fill="none">
+									<circle cx="20" cy="20" r="12" stroke="currentColor" stroke-width="2" />
+									<path d="M20 10V20L26 26" stroke="currentColor" stroke-width="2" stroke-linecap="round" />
+									<path d="M6 20H2" stroke="currentColor" stroke-width="2" stroke-linecap="round" />
+									<path d="M38 20H34" stroke="currentColor" stroke-width="2" stroke-linecap="round" />
+								</svg>
+							</div>
+							<span class="service_num ff2">06</span>
+						</div>
+						<h3 class="service_title ff2">Прочие услуги</h3>
+						<p class="service_desc">Подбор маршрутов, спецразрешения, сопровождение нестандартных перевозок.</p>
+						<a href="services/other.html" class="service_link"><span>Подробнее →</span></a>
+					</div>
+
+				</div>
+			</div>
+		</section>
+		<section class="about_section" id="about">
+			<div class="about_section_inner">
+				<div class="about_top">
+					<div class="about_left fade_in">
+						<p class="section_eyebrow">О компании</p>
+						<h2 class="section_title ff3">Логистика в сердце<br>Каспийского региона</h2>
+						<p class="about_text">ТОО «FERRY MANAGEMENT» основано в 2010 году в городе Актау. Компания
+							специализируется на комплексных транспортно-логистических услугах в регионе Каспийского моря и
+							международных транспортных коридорах между Азией и Европой.</p>
+						<p class="about_text">С апреля 2023 года располагаем собственным складом временного хранения (СВХ) в
+							промышленной зоне №6 города Актау с круглосуточным видеонаблюдением, зоной таможенного досмотра и
+							весовым оборудованием.</p>
+						<a href="#" class="link_arrow">Подробнее о компании <span>→</span></a>
+					</div>
+					<div class="about_right fade_in">
+						<div class="about_img_wrap">
+							<img src="img/port3.png" alt="Инфраструктура Ferry Management" class="about_img">
+							<div class="about_img_badge">
+								<strong class="ff2">СВХ</strong>
+								<span>с 2023 года</span>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="about_stats_bar fade_in">
+					<div class="about_stats_bar_inner">
+						<div class="about_stat">
+							<strong class="ff2">15+</strong>
+							<span>лет на рынке</span>
+						</div>
+						<div class="about_stat_div"></div>
+						<div class="about_stat">
+							<strong class="ff2">Актау &amp; Курык</strong>
+							<span>морские порты</span>
+						</div>
+						<div class="about_stat_div"></div>
+						<div class="about_stat">
+							<strong class="ff2">2010</strong>
+							<span>год основания</span>
+						</div>
+					</div>
+				</div>
+			</div>
+		</section>
+		<section class="routes_section" id="routes">
+			<div class="routes_section_inner">
+				<div class="routes_head fade_in">
+					<!-- <p class="section_eyebrow">Охват</p> -->
+					<h2 class="section_title ff2">География перевозок</h2>
+				</div>
+				<div class="routes_list">
+					<div class="route_row fade_in">
+						<div class="route_index ff2">01</div>
+						<div class="route_flow">
+							<span class="route_node ff2">Казахстан</span>
+							<span class="route_arr">→</span>
+							<span class="route_node ff2">Азербайджан</span>
+							<span class="route_arr">→</span>
+							<span class="route_node ff2">Грузия</span>
+							<span class="route_arr">→</span>
+							<span class="route_node ff2">Турция</span>
+							<span class="route_arr">→</span>
+							<span class="route_node route_dest ff2">Европа</span>
+						</div>
+						<p class="route_note">Через порты Актау и Курык по Каспию, паром и наземный транспорт</p>
+					</div>
+					<div class="route_row fade_in">
+						<div class="route_index ff2">02</div>
+						<div class="route_flow">
+							<span class="route_node ff2">Казахстан</span>
+							<span class="route_arr">→</span>
+							<span class="route_node ff2">Иран</span>
+							<span class="route_arr">→</span>
+							<span class="route_node route_dest ff2">Персидский залив / ОАЭ</span>
+						</div>
+						<p class="route_note">Международный коридор в страны Ближнего Востока</p>
+					</div>
+					<div class="route_row fade_in">
+						<div class="route_index ff2">03</div>
+						<div class="route_flow">
+							<span class="route_node ff2">Казахстан</span>
+							<span class="route_arr">→</span>
+							<span class="route_node ff2">Россия</span>
+							<span class="route_arr">→</span>
+							<span class="route_node route_dest ff2">Волго-Донской канал</span>
+						</div>
+						<p class="route_note">Речной коридор в центральную часть России и далее</p>
+					</div>
+				</div>
+			</div>
+		</section>
+		<section class="usp_section" id="usp">
+			<div class="usp_section_inner">
+				<div class="usp_head fade_in">
+					<!-- <p class="section_eyebrow section_eyebrow_light">Почему выбирают нас</p> -->
+					<h2 class="section_title section_title_light ff2">Наши преимущества</h2>
+				</div>
+				<div class="usp_grid">
+					<div class="usp_item fade_in">
+						<span class="usp_bg_num ff2">01</span>
+						<h3 class="usp_title ff2">15+ лет опыта</h3>
+						<p class="usp_desc">Работаем с 2010 года. Специалисты с опытом в морских портах, ж/д логистике и
+							таможне.</p>
+					</div>
+					<div class="usp_item fade_in">
+						<span class="usp_bg_num ff2">02</span>
+						<h3 class="usp_title ff2">Комплексный сервис</h3>
+						<p class="usp_desc">Полный цикл: перевозка, экспедирование, таможня, складирование — в одном месте.
+						</p>
+					</div>
+					<div class="usp_item fade_in">
+						<span class="usp_bg_num ff2">03</span>
+						<h3 class="usp_title ff2">Своя инфраструктура</h3>
+						<p class="usp_desc">СВХ, открытые площадки, ж/д подъездной путь и автомобильная эстакада.</p>
+					</div>
+					<div class="usp_item fade_in">
+						<span class="usp_bg_num ff2">04</span>
+						<h3 class="usp_title ff2">Контроль на месте</h3>
+						<p class="usp_desc">Близость к портам позволяет фактически осматривать груз, а не работать по
+							документам.</p>
+					</div>
+					<div class="usp_item fade_in">
+						<span class="usp_bg_num ff2">05</span>
+						<h3 class="usp_title ff2">Международные маршруты</h3>
+						<p class="usp_desc">Казахстан — Европа, Персидский залив, Россия, Кавказ через ключевые коридоры.</p>
+					</div>
+					<div class="usp_item fade_in">
+						<span class="usp_bg_num ff2">06</span>
+						<h3 class="usp_title ff2">Индивидуальный подход</h3>
+						<p class="usp_desc">Персональный менеджер, оптимальный маршрут, решения под любой тип груза.</p>
+					</div>
+				</div>
+			</div>
+		</section>
+
+		<section class="partners_section" id="partners">
+			<div class="partners_section_inner">
+				<div class="partners_head fade_in">
+					<h2 class="partners_title ff2">Наши партнёры</h2>
+				</div>
+				<div class="partners_logos fade_in">
+					<div class="partner_item">
+						<img src="img/partner1.svg" alt="Партнёр">
+					</div>
+					<div class="partner_item">
+						<img src="img/partner2.svg" alt="Партнёр">
+					</div>
+					<div class="partner_item">
+						<img src="img/partner3.svg" alt="Партнёр">
+					</div>
+					<div class="partner_item">
+						<img src="img/partner4.svg" alt="Партнёр">
+					</div>
+					<div class="partner_item">
+						<img src="img/partner5.svg" alt="Партнёр">
+					</div>
+					<div class="partner_item">
+						<img src="img/partner6.svg" alt="Партнёр">
+					</div>
+				</div>
+			</div>
+		</section>
+		<section class="news_section" id="news">
+			<div class="news_section_inner">
+				<div class="news_head fade_in">
+					<p class="section_eyebrow">Актуально</p>
+					<h2 class="section_title ff2">Новости</h2>
+				</div>
+				<div class="news_grid">
+					<article class="news_card fade_in">
+						<div class="news_card_img_wrap">
+							<img class="news_card_img" src="img/port2.png" alt="Порт Актау">
+						</div>
+						<div class="news_card_body">
+							<time class="news_date">12 мая 2026</time>
+							<h3 class="news_title ff2">Обновление расписания паромных рейсов на маршруте Курык — Алят</h3>
+							<p class="news_excerpt">Сообщаем об изменениях в расписании грузовых паромных перевозок по
+								Каспийскому морю...</p>
+							<a href="#" class="link_arrow">Читать далее <span>→</span></a>
+						</div>
+					</article>
+					<article class="news_card fade_in">
+						<div class="news_card_img_wrap">
+							<img class="news_card_img" src="img/gruzsudno1.png" alt="Грузовое судно">
+						</div>
+						<div class="news_card_body">
+							<time class="news_date">3 апреля 2026</time>
+							<h3 class="news_title ff2">Расширение складских мощностей СВХ в промзоне №6</h3>
+							<p class="news_excerpt">Ferry Management увеличивает площадь открытых складских площадок для
+								хранения колёсной техники...</p>
+							<a href="#" class="link_arrow">Читать далее <span>→</span></a>
+						</div>
+					</article>
+					<article class="news_card fade_in">
+						<div class="news_card_img_wrap">
+							<img class="news_card_img" src="img/containers.png" alt="Контейнерные перевозки">
+						</div>
+						<div class="news_card_body">
+							<time class="news_date">18 марта 2026</time>
+							<h3 class="news_title ff2">Новые маршруты железнодорожных перевозок в страны Персидского залива
+							</h3>
+							<p class="news_excerpt">Компания запускает новые логистические решения для доставки грузов в ОАЭ и
+								Иран...</p>
+							<a href="#" class="link_arrow">Читать далее <span>→</span></a>
+						</div>
+					</article>
+				</div>
+				<div class="news_more fade_in">
+					<a href="#" class="btn_outline">Все новости</a>
+				</div>
+			</div>
+		</section>
+
+
+		<section class="restrict_section" id="restrictions">
+			<div class="restrict_section_inner">
+				<div class="restrict_head fade_in">
+					<p class="section_eyebrow section_eyebrow_light">Ограничения</p>
+					<h2 class="section_title section_title_light ff2">Запрещённые к перевозке грузы</h2>
+					<p class="restrict_sub">Компания не принимает к перевозке следующие категории грузов. Если у вас есть сомнения — проконсультируйтесь с менеджером до подачи заявки.</p>
+				</div>
+				<div class="restrict_grid fade_in">
+					<div class="restrict_item">
+						<div class="restrict_icon">
+							<svg width="22" height="22" viewBox="0 0 22 22" fill="none">
+								<circle cx="11" cy="11" r="9.5" stroke="currentColor" stroke-width="1.5"/>
+								<path d="M4.5 4.5L17.5 17.5" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"/>
+							</svg>
+						</div>
+						<div class="restrict_text">
+							<strong>Наркотические и психотропные вещества</strong>
+							<span>Любые формы, включая прекурсоры</span>
+						</div>
+					</div>
+					<div class="restrict_item">
+						<div class="restrict_icon">
+							<svg width="22" height="22" viewBox="0 0 22 22" fill="none">
+								<circle cx="11" cy="11" r="9.5" stroke="currentColor" stroke-width="1.5"/>
+								<path d="M4.5 4.5L17.5 17.5" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"/>
+							</svg>
+						</div>
+						<div class="restrict_text">
+							<strong>Взрывчатые вещества и боеприпасы</strong>
+							<span>Без действующего разрешения МВД / МО РК</span>
+						</div>
+					</div>
+					<div class="restrict_item">
+						<div class="restrict_icon">
+							<svg width="22" height="22" viewBox="0 0 22 22" fill="none">
+								<circle cx="11" cy="11" r="9.5" stroke="currentColor" stroke-width="1.5"/>
+								<path d="M4.5 4.5L17.5 17.5" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"/>
+							</svg>
+						</div>
+						<div class="restrict_text">
+							<strong>Оружие и военная техника</strong>
+							<span>Без государственной экспортной лицензии</span>
+						</div>
+					</div>
+					<div class="restrict_item">
+						<div class="restrict_icon">
+							<svg width="22" height="22" viewBox="0 0 22 22" fill="none">
+								<circle cx="11" cy="11" r="9.5" stroke="currentColor" stroke-width="1.5"/>
+								<path d="M4.5 4.5L17.5 17.5" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"/>
+							</svg>
+						</div>
+						<div class="restrict_text">
+							<strong>Радиоактивные материалы</strong>
+							<span>Без разрешения уполномоченного ядерного органа</span>
+						</div>
+					</div>
+					<div class="restrict_item">
+						<div class="restrict_icon">
+							<svg width="22" height="22" viewBox="0 0 22 22" fill="none">
+								<circle cx="11" cy="11" r="9.5" stroke="currentColor" stroke-width="1.5"/>
+								<path d="M4.5 4.5L17.5 17.5" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"/>
+							</svg>
+						</div>
+						<div class="restrict_text">
+							<strong>Товары под международными санкциями</strong>
+							<span>Списки SDN, ЕС, ООН и иных регуляторов</span>
+						</div>
+					</div>
+					<div class="restrict_item">
+						<div class="restrict_icon">
+							<svg width="22" height="22" viewBox="0 0 22 22" fill="none">
+								<circle cx="11" cy="11" r="9.5" stroke="currentColor" stroke-width="1.5"/>
+								<path d="M4.5 4.5L17.5 17.5" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"/>
+							</svg>
+						</div>
+						<div class="restrict_text">
+							<strong>Химическое и биологическое оружие</strong>
+							<span>Вещества конвенции ООН о химическом оружии</span>
+						</div>
+					</div>
+					<div class="restrict_item">
+						<div class="restrict_icon">
+							<svg width="22" height="22" viewBox="0 0 22 22" fill="none">
+								<circle cx="11" cy="11" r="9.5" stroke="currentColor" stroke-width="1.5"/>
+								<path d="M4.5 4.5L17.5 17.5" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"/>
+							</svg>
+						</div>
+						<div class="restrict_text">
+							<strong>Контрафактная продукция</strong>
+							<span>Товары с нарушением прав интеллектуальной собственности</span>
+						</div>
+					</div>
+					<div class="restrict_item">
+						<div class="restrict_icon">
+							<svg width="22" height="22" viewBox="0 0 22 22" fill="none">
+								<circle cx="11" cy="11" r="9.5" stroke="currentColor" stroke-width="1.5"/>
+								<path d="M4.5 4.5L17.5 17.5" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"/>
+							</svg>
+						</div>
+						<div class="restrict_text">
+							<strong>Незадекларированные ценности и наличность</strong>
+							<span>Валюта, драгметаллы и ценности сверх нормы без декларации</span>
+						</div>
+					</div>
+				</div>
+				<p class="restrict_note fade_in">Перечень не является исчерпывающим. По нестандартным грузам и товарам двойного назначения — <a href="#form">проконсультируйтесь с менеджером</a>.</p>
+			</div>
+		</section>
+
+		<section class="form_section" id="form">
+			<div class="form_section_inner">
+				<div class="form_head fade_in">
+					<p class="section_eyebrow">Связаться с нами</p>
+					<h2 class="section_title ff2">Отправить заявку</h2>
+					<p class="form_sub">Заполните форму — менеджер свяжется с вами в течение 2 часов.</p>
+				</div>
+				<form class="request_form fade_in" id="request_form" action="mailto:info@ferry.kz" method="post"
+					enctype="multipart/form-data" novalidate>
+
+					<div class="form_block">
+						<p class="form_block_title">Контактные данные</p>
+						<div class="form_row form_row_4">
+							<div class="form_group">
+								<label class="form_label" for="f_name">Имя исполнителя <span class="form_req">*</span></label>
+								<input class="form_input" type="text" id="f_name" name="name" placeholder="Иван Иванов">
+								<span class="form_error" id="err_name"></span>
+							</div>
+							<div class="form_group">
+								<label class="form_label" for="f_company">Компания <span class="form_req">*</span></label>
+								<input class="form_input" type="text" id="f_company" name="company"
+									placeholder="ТОО «Название»">
+								<span class="form_error" id="err_company"></span>
+							</div>
+							<div class="form_group">
+								<label class="form_label" for="f_phone">Телефон <span class="form_req">*</span></label>
+								<input class="form_input" type="tel" id="f_phone" name="phone" placeholder="+7 (___) ___-__-__">
+								<span class="form_error" id="err_phone"></span>
+							</div>
+							<div class="form_group">
+								<label class="form_label" for="f_email">Email <span class="form_req">*</span></label>
+								<input class="form_input" type="email" id="f_email" name="email" placeholder="mail@company.kz">
+								<span class="form_error" id="err_email"></span>
+							</div>
+						</div>
+					</div>
+
+					<div class="form_block">
+						<p class="form_block_title">Маршрут</p>
+						<div class="form_row form_row_3">
+							<div class="form_group">
+								<label class="form_label" for="f_type">Тип перевозки <span class="form_req">*</span></label>
+								<select class="form_input form_select" id="f_type" name="transport_type">
+									<option value="">— Выберите тип —</option>
+									<option value="railway">Железнодорожная</option>
+									<option value="sea">Морская</option>
+									<option value="auto">Автомобильная</option>
+									<option value="multi">Мультимодальная</option>
+								</select>
+								<span class="form_error" id="err_type"></span>
+							</div>
+							<div class="form_group">
+								<label class="form_label" for="f_route">Полный маршрут <span class="form_req">*</span></label>
+								<input class="form_input" type="text" id="f_route" name="route"
+									placeholder="Актау — Баку — Тбилиси">
+								<span class="form_error" id="err_route"></span>
+							</div>
+							<div class="form_group">
+								<label class="form_label" for="f_border">Пограничные переходы</label>
+								<input class="form_input" type="text" id="f_border" name="border_crossings"
+									placeholder="Укажите переходы">
+							</div>
+						</div>
+					</div>
+
+					<div class="form_block">
+						<p class="form_block_title">Параметры груза</p>
+						<div class="form_row form_row_3">
+							<div class="form_group">
+								<label class="form_label" for="f_cargo">Наименование груза <span
+										class="form_req">*</span></label>
+								<input class="form_input" type="text" id="f_cargo" name="cargo_name"
+									placeholder="Металлопрокат, автомобили...">
+								<span class="form_error" id="err_cargo"></span>
+							</div>
+							<div class="form_group">
+								<label class="form_label" for="f_codes">Коды ЕТСНГ / ГНГ / ТН ВЭД</label>
+								<input class="form_input" type="text" id="f_codes" name="cargo_codes" placeholder="Коды груза">
+							</div>
+							<div class="form_group">
+								<label class="form_label" for="f_dims">Габариты одного места</label>
+								<input class="form_input" type="text" id="f_dims" name="dimensions" placeholder="Д × Ш × В, см">
+							</div>
+						</div>
+						<div class="form_row">
+							<div class="form_group">
+								<label class="form_label" for="f_volume">Объём</label>
+								<input class="form_input" type="text" id="f_volume" name="volume" placeholder="м³">
+							</div>
+							<div class="form_group">
+								<label class="form_label" for="f_weight">Вес брутто <span class="form_req">*</span></label>
+								<input class="form_input" type="text" id="f_weight" name="weight" placeholder="кг / тонн">
+								<span class="form_error" id="err_weight"></span>
+							</div>
+						</div>
+					</div>
+
+					<div class="form_block">
+						<p class="form_block_title">Документы</p>
+						<div class="file_drop" id="file_drop">
+							<div class="file_drop_icon">
+								<svg width="32" height="32" viewBox="0 0 32 32" fill="none">
+									<path d="M16 22V10" stroke="currentColor" stroke-width="2" stroke-linecap="round" />
+									<path d="M10 16L16 10L22 16" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+										stroke-linejoin="round" />
+									<path d="M6 26H26" stroke="currentColor" stroke-width="2" stroke-linecap="round" />
+								</svg>
+							</div>
+							<div class="file_drop_body">
+								<label class="file_drop_btn" for="f_file">Выбрать файлы</label>
+								<span class="file_drop_or">или перетащите сюда</span>
+							</div>
+							<p class="file_drop_hint">JPG, PNG, PDF, DOC, XLS — до 10 МБ</p>
+							<p class="file_drop_names" id="file_names"></p>
+							<input type="file" id="f_file" name="cargo_file"
+								accept=".jpg,.jpeg,.png,.pdf,.doc,.docx,.xls,.xlsx" multiple>
+						</div>
+					</div>
+
+					<div class="form_footer">
+						<input class="btn_submit" type="submit" value="Отправить заявку">
+						<span class="form_agree">Нажимая кнопку, вы соглашаетесь с <a href="#">политикой
+								конфиденциальности</a></span>
+					</div>
+
+				</form>
+			</div>
+		</section>
+
+	</main>
+
+	<footer class="site_footer" id="contacts">
+		<div class="site_footer_inner">
+			<div class="footer_top">
+				<div class="footer_brand">
+					<div class="header_logo_text">
+						<a href="#" class="header_logo_name ff3">FERRY MANAGEMENT</a>
+						<span class="header_logo_address">Казахстан, Мангистауская обл,, 130000, г.&nbsp;Актау, 5&nbsp;мкр.,
+							29&nbsp;д., офис&nbsp;№1. <br>
+							Тел.: <a href="tel:+77292500346">+7&nbsp;7292&nbsp;500&nbsp;346</a>, e-mail: <a
+								href="mailto:info@ferry.kz">info@ferry.kz</a></span>
+					</div>
+				</div>
+				<div class="footer_col">
+					<h4 class="footer_col_title ff2">О компании</h4>
+					<ul class="footer_links">
+						<li><a href="about.html">История компании</a></li>
+						<li><a href="index.html#usp">Преимущества</a></li>
+						<li><a href="news.html">Новости</a></li>
+					</ul>
+				</div>
+				<div class="footer_col">
+					<h4 class="footer_col_title ff2">Услуги</h4>
+					<ul class="footer_links">
+						<li><a href="services/rail.html">Железнодорожные перевозки</a></li>
+						<li><a href="services/sea.html">Морские перевозки</a></li>
+						<li><a href="services/auto.html">Автоперевозки</a></li>
+						<li><a href="services/broker.html">Таможенный брокер</a></li>
+						<li><a href="services/warehouse.html">Склад СВХ</a></li>
+					</ul>
+				</div>
+				<div class="footer_col">
+					<h4 class="footer_col_title ff2">Паромные перевозки</h4>
+					<ul class="footer_links">
+						<li><a href="services/sea.html">Перевозка автомобилей</a></li>
+						<li><a href="services/sea.html">Перевозка контейнеров</a></li>
+						<li><a href="services/sea.html">Палубные грузы</a></li>
+						<li><a href="services/sea.html">Колёсная техника</a></li>
+					</ul>
+				</div>
+				<div class="footer_col">
+					<h4 class="footer_col_title ff2">Контакты</h4>
+					<ul class="footer_contacts">
+						<li>Казахстан, Мангистауская обл,, 130000, г.&nbsp;Актау, 5&nbsp;мкр., 29&nbsp;д., офис&nbsp;№1.</li>
+						<li><a href="tel:+77292500346">+7&nbsp;7292&nbsp;500&nbsp;346</a></li>
+						<li><a href="mailto:info@ferry.kz">info@ferry.kz</a></li>
+					</ul>
+				</div>
+			</div>
+			<div class="footer_bottom">
+				<span>© 2026 ТОО «FERRY MANAGEMENT». Все права защищены.</span>
+				<a href="#">Политика конфиденциальности</a>
+			</div>
+		</div>
+	</footer>
+
+	<script src="main.js"></script>
+</body>
+
+</html>
